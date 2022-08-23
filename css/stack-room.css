@@ -1,0 +1,108 @@
+.layout {
+  margin-top: 100px;
+}
+.filter-panel {
+  width: 100%;
+  height: 200px;
+  border-top: 20px solid #fff4cc;
+  color: #999;
+}
+.filter-panel .reader {
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.filter-panel .reader .female-zone {
+  padding-right: 10px;
+  margin-right: 5px;
+  border-right: 2px solid #ffd648;
+}
+.filter-panel a:hover {
+  color: #ef7973;
+}
+.filter-panel .filter {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.filter-panel .filter dd {
+  padding: 0 8px;
+  margin: 0 20px;
+}
+.filter-panel .active {
+  color: #ef7973;
+}
+.booklist {
+  height: 500px;
+  width: 100%;
+  border: 1px solid #ffd648;
+}
+.booklist .books {
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  border-bottom: 2px solid #ececec;
+}
+.booklist .books .book {
+  display: flex;
+  width: 550px;
+  margin: 15px;
+}
+.booklist .books .book .mask {
+  width: 100px;
+  height: 140px;
+  overflow: hidden;
+}
+.booklist .books .book img {
+  width: 100px;
+  height: 140px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.booklist .books .book img:hover {
+  transform: scale(1.1);
+}
+.booklist .books .book .booktext {
+  margin-left: 20px;
+}
+.booklist .books .book .booktext .title {
+  font-size: 18px;
+}
+.booklist .books .book .booktext .info {
+  margin: 5px 0;
+}
+.booklist .books .book .booktext .info .state {
+  margin-left: 50px;
+}
+.booklist .books .book .booktext p {
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #888;
+}
+.booklist .books .book a:hover {
+  color: #ef7973;
+}
+.pagination-list {
+  margin-top: 20px;
+  height: 90px;
+}
+.pagination-list ul {
+  display: flex;
+  justify-content: center;
+}
+.pagination-list ul li {
+  border: 1px solid #ef7973;
+  padding: 0 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+img {
+  width: 120px;
+  height: 160px;
+  cursor: pointer;
+}

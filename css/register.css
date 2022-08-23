@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.header .logo {
+  width: 210px;
+  height: 65px;
+  background-color: azure;
+  margin-right: 30px;
+}
+.header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header h2 {
+  font-weight: 400;
+  border-left: 2px solid #FA9A00;
+  padding-left: 20px;
+}
+.reg-wrap {
+  margin-top: 40px;
+}
+.reg-wrap .reg-step {
+  height: 35px;
+  border-bottom: 1px solid #D8D8D8;
+  text-align: center;
+}
+.reg-wrap .reg-step span {
+  font-size: 20px;
+  padding: 0 30px 10px;
+  line-height: 26px;
+  border-bottom: 2px solid #e95713;
+}
+.reg-wrap form {
+  width: 800px;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+.reg-wrap form .username,
+.reg-wrap form .phonenum,
+.reg-wrap form .message-vertify,
+.reg-wrap form .password,
+.reg-wrap form .confirmpsw {
+  height: 70px;
+}
+.reg-wrap form .username input,
+.reg-wrap form .phonenum input,
+.reg-wrap form .message-vertify input,
+.reg-wrap form .password input,
+.reg-wrap form .confirmpsw input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #D8D8D8;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.reg-wrap form .username .code,
+.reg-wrap form .phonenum .code,
+.reg-wrap form .message-vertify .code,
+.reg-wrap form .password .code,
+.reg-wrap form .confirmpsw .code {
+  color: skyblue;
+}
+.reg-wrap form .username span,
+.reg-wrap form .phonenum span,
+.reg-wrap form .message-vertify span,
+.reg-wrap form .password span,
+.reg-wrap form .confirmpsw span {
+  display: block;
+  color: #bf2c24;
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.reg-wrap .done {
+  display: flex;
+  margin: 15px 0 15px 0;
+}
+.reg-wrap .done p {
+  font-size: 14px;
+}
+.reg-wrap .red-btn {
+  display: block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ee7c77;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}

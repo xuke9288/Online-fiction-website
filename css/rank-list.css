@@ -1,0 +1,95 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.aside-nav {
+  width: 150px;
+  border-right: 2px solid #f1ebeb;
+  text-align: center;
+}
+.aside-nav li {
+  height: 40px;
+  line-height: 40px;
+}
+.aside-nav li:hover {
+  color: #ef7973;
+}
+.aside-nav .active {
+  margin-right: -2px;
+  background-color: #fff4cc;
+  border-right: 3px solid #ef7973;
+  font-weight: 800;
+  color: #ef7973;
+}
+.rank-wrap {
+  width: 1000px;
+}
+.rank-wrap h2 {
+  font-weight: 400;
+}
+.book-item {
+  display: flex;
+  height: 160px;
+  margin: 20px 0;
+  border-bottom: 2px solid #ececec;
+}
+.book-item .mask {
+  width: 120px;
+  height: 160px;
+  overflow: hidden;
+}
+.book-item img {
+  width: 120px;
+  height: 160px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.book-item img:hover {
+  transform: scale(1.1);
+}
+.book-item .booktext {
+  margin-left: 20px;
+}
+.book-item .booktext .title {
+  font-size: 18px;
+}
+.book-item .booktext .info {
+  margin: 5px 0;
+}
+.book-item .booktext .info .state {
+  margin-left: 50px;
+}
+.book-item .booktext .update {
+  margin: 5px 0;
+}
+.book-item .booktext .update .chapter {
+  margin-right: 50px;
+}
+.book-item .booktext p {
+  width: 860px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #888;
+}
+.book-item a:hover {
+  color: #ef7973;
+}
+.pagination-list {
+  margin-top: 20px;
+  height: 90px;
+}
+.pagination-list ul {
+  display: flex;
+  justify-content: center;
+}
+.pagination-list ul li {
+  border: 1px solid #ef7973;
+  padding: 0 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
